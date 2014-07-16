@@ -7,6 +7,6 @@ define(['angular'], function (angular) {
                 'HTML5 Boilerplate',
                 'AngularJS',
                 'Karma',
-            ];
-        });
-});
+              ];
+          });
+  });

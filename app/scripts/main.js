@@ -9,8 +9,7 @@ require.config({
         'angular-resource': '../bower_components/angular-resource/angular-resource',
         'angular-mocks': '../bower_components/angular-mocks/angular-mocks',
         'angular-cookies': '../bower_components/angular-cookies/angular-cookies',
-        'angular-ui-router': '../bower_components/angular-ui-router/release/angular-ui-router',
-        'angular-route': '../bower_components/angular-route/angular-route'
+        'angular-ui-router': '../bower_components/angular-ui-router/release/angular-ui-router'
     },
     shim: {
         angular: {
@@ -53,7 +52,7 @@ require([
     'angular-sanitize',
     'angular-resource',
     'angular-ui-router'
-], function (angular, app) {
+  ], function (angular, app) {
     'use strict';
     /* jshint ignore:start */
     var $html = angular.element(document.getElementsByTagName('html')[0]);

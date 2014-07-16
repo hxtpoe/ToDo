@@ -21,9 +21,7 @@ requirejs.config({
         'angular-resource': '../bower_components/angular-resource/angular-resource',
         'angular-mocks': '../bower_components/angular-mocks/angular-mocks',
         'angular-cookies': '../bower_components/angular-cookies/angular-cookies',
-        'angular-ui-router': '../bower_components/angular-ui-router/release/angular-ui-router',
-        jquery: '../bower_components/jquery/dist/jquery',
-        'angular-route': '../bower_components/angular-route/angular-route'
+        'angular-ui-router': '../bower_components/angular-ui-router/release/angular-ui-router'
     },
 
     shim: {
