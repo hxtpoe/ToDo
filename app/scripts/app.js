@@ -1,20 +1,20 @@
 /*jshint unused: vars */
-define(['angular', 'controllers/main']/*deps*/, function (angular, MainCtrl)/*invoke*/ {
+define([
+    'angular',
+    'controllers/main',
+    'routeManager',
+    'angular-ui-router']/*deps*/, function (angular, MainCtrl, RouteManager)/*invoke*/ {
     'use strict';
 
-    return angular.module('connectApp', ['connectApp.controllers.MainCtrl',
+    console.log("scripts");
+
+    return angular.module('connectApp', [
+            'connectApp.controllers.MainCtrl',
             /*angJSDeps*/
             'ngCookies',
             'ngResource',
             'ngSanitize',
-            'ngRoute'
+            'ui.router'
         ])
-        .config(function ($routeProvider) {
-            $routeProvider.when('/', {
-              templateUrl: 'views/main.html',
-              controller: 'MainCtrl'
-            }).otherwise({
-              redirectTo: '/'
-            });
-          });
-  });
+        .config(RouteManager);
+});
