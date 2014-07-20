@@ -11,12 +11,12 @@ define([], function () {
                     }
                 }
             }).
-            state('homepage', {
-                url: '/homepage',
+            state('add', {
+                url: '/add',
                 views: {
                     'appview@': {
-                        templateUrl: 'views/homepage.html',
-                        controller: 'HomepageController as HomepageCtrl'
+                        templateUrl: 'views/add.html',
+                        controller: 'AddController as AddCtrl'
                     }
                 }
             });
