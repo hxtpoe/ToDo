@@ -52,7 +52,7 @@ require([
     'angular-sanitize',
     'angular-resource',
     'angular-ui-router'
-  ], function (angular, app) {
+], function (angular, app) {
     'use strict';
     /* jshint ignore:start */
     var $html = angular.element(document.getElementsByTagName('html')[0]);

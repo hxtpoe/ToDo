@@ -19,6 +19,15 @@ define([], function () {
                         controller: 'AddController as AddCtrl'
                     }
                 }
+            }).
+            state('list', {
+                url: '/list/:status',
+                views: {
+                    'appview@': {
+                        templateUrl: 'views/list.html',
+                        controller: 'ListController as ListCtrl'
+                    }
+                }
             });
     };
 
