@@ -6,6 +6,7 @@ routeManager.js
 controllers/main.js
 controllers/add.js
 controllers/list.js
+directives/analytics.js
 angular-ui-router.js
 app.js
 angular-cookies.js
