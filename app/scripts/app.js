@@ -4,6 +4,8 @@ define([
     'routeManager',
     'controllers/main',
     'controllers/add',
+    'controllers/list',
+    'directives/analytics',
     'angular-ui-router'
   ],
     /*deps*/
@@ -13,6 +15,8 @@ define([
         return angular.module('ToDoApp', [
             'MainCtrl',
             'AddCtrl',
+            'ListCtrl',
+            'AnalyticsDirective',
             /*angJSDeps*/
             'ngCookies',
             'ngResource',
