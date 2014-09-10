@@ -9,7 +9,7 @@ define([
         describe('Controller: MainCtrl', function () {
 
             // load the controller's module
-            beforeEach(module('MainCtrl'));
+            beforeEach(module('controllers'));
 
             var MainCtrl;
 

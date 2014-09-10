@@ -2,7 +2,6 @@
 define([
     'angular',
     'routeManager',
-    'controllers',
     'directives/analytics',
     'angular-ui-router'
 ],
@@ -11,8 +10,10 @@ define([
         'use strict';
 
         return angular.module('ToDoApp', [
+                'MainCtrl',
+                'AddCtrl',
+                'ListCtrl',
                 'AnalyticsDirective',
-                'controllers',
                 /*angJSDeps*/
                 'ngCookies',
                 'ngResource',
