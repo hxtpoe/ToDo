@@ -1,12 +1,13 @@
-define(['angular'], function (angular) {
+define([''], function () {
     'use strict';
 
-    angular.module('ListCtrl', [])
-        .controller('ListController', function () {
-            this.awesomeThings = [
-                'HTML5 Boilerplate',
-                'AngularJS',
-                'Karma',
-              ];
-          });
-  });
+    var ListController = function () {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    };
+
+    return [ ListController ];
+});

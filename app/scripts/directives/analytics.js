@@ -10,10 +10,8 @@ define(['angular'], function (angular) {
                         function () {
                             $window.ga('set', 'page', $location.path());
                             $window.ga('send', 'pageview');
-                        })
-
+                        });
                 }
             };
-
         }]);
 });

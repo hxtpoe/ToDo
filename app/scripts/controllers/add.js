@@ -1,8 +1,9 @@
-define(['angular'], function (angular) {
+define([''], function () {
     'use strict';
 
-    angular.module('AddCtrl', [])
-        .controller('AddController', function () {
+    var AddController = function () {
 
-        });
+    };
+
+    return [ AddController ];
 });

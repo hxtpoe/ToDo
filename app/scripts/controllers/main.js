@@ -1,12 +1,13 @@
-define(['angular'], function (angular) {
+define([''], function () {
     'use strict';
 
-    angular.module('MainCtrl', [])
-        .controller('MainController', function () {
-            this.awesomeThings = [
-                'HTML5 Boilerplate',
-                'AngularJS',
-                'Karma',
-              ];
-          });
-  });
+    var MainController = function () {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    };
+
+    return [ MainController ];
+});
