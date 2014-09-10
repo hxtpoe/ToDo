@@ -1,0 +1,1 @@
+define(["angular","routeManager","directives/analytics","angular-ui-router"],function(angular,RouteManager){return angular.module("ToDoApp",["MainCtrl","AddCtrl","ListCtrl","AnalyticsDirective","ngCookies","ngResource","ngSanitize","ui.router"]).config(RouteManager)});
