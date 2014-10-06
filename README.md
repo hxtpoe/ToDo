@@ -1,20 +1,26 @@
-[![Build Status](https://travis-ci.org/hxtpoe/angular-requirejs-seed.svg?branch=master)](https://travis-ci.org/hxtpoe/angular-requirejs-seed)
+[![Build Status](https://travis-ci.org/hxtpoe/ToDo.svg?branch=newArch)](https://travis-ci.org/hxtpoe/ToDo)
 
 #Description
 
-AngularJS + RequireJS + Grunt = awesome seed
-
-Here you've got better description why it's good to have modular architecture. 
-http://blog.inzynieria.it/getting-start-with-angular-require-grunt-bower-karma-seed
+This is simple angular ToDo list with something more than "all in one file". You can see how to use RequreJS with AngularJS.
+This is good place to see how to share data in every place of your single page app.
+For more information please visit http://hxtpoe.github.io/ToDo/
+I hope you'll enjoy.. 
 
 # Installation
 
-git clone https://github.com/hxtpoe/angular-requirejs-seed.git
+git clone https://github.com/hxtpoe/ToDo.git
 
-cd angular-requirejs-seed
+cd ToDo
 
 npm install
 
 bower install
 
 grunt serve
+
+
+# Demo
+
+http://hxtpoe.github.io/ToDo/dist/
+
