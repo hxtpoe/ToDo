@@ -6,8 +6,8 @@ define([], function () {
                 url: '',
                 views: {
                     'appview@': {
-                        templateUrl: 'scripts/homepage/homepage.html',
-                        controller: 'HomepageController as HomepageCtrl'
+                        templateUrl: 'scripts/task/task.html',
+                        controller: 'TaskController as TaskCtrl'
                     }
                 }
             });

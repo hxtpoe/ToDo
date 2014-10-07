@@ -1,28 +1,28 @@
 define([
-    'scripts/homepage/homepageModule',
+    'scripts/task/taskModule',
     'angular',
     'angular-mocks'
 ],
-    function (HomepageModule) {
+    function (TaskModule) {
         'use strict';
 
-        var moduleName = HomepageModule();
+        var moduleName = TaskModule();
 
-        describe('Controller: HomepageController', function () {
+        describe('Controller: TaskController', function () {
 
-            var HomepageController;
+            var TaskController;
 
             beforeEach(
                 function () {
                     module(moduleName);
                     inject(function ($controller) {
-                        HomepageController = $controller("HomepageController", {});
+                        TaskController = $controller("TaskController", {});
                     });
                 }
             );
 
             it('should attach a list of awesomeThings to the scope', function () {
-                expect(HomepageController.test).toBeTruthy();
+                expect(TaskController.test).toBeTruthy();
             });
         });
     });

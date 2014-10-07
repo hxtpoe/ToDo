@@ -2,7 +2,7 @@ define([
     'angular',
     'scripts/routeManager',
     'scripts/common/commonModule',
-    'scripts/homepage/homepageModule',
+    'scripts/task/taskModule',
     'angular-ui-router',
     'angular-animate',
     'angular-strap',
@@ -11,7 +11,7 @@ define([
     'angular-sanitize',
     'angular-resource'
 ],
-    function (angular, RouteManager, CommonModule, HomepageModule) {
+    function (angular, RouteManager, CommonModule, TaskModule) {
         'use strict';
 
         return angular.module('YoApp', [
@@ -22,7 +22,7 @@ define([
                 'ui.router',
                 'mgcrea.ngStrap.modal',
                 CommonModule(),
-                HomepageModule()
+                TaskModule()
             ])
             .config(RouteManager)
             .config(["$modalProvider", function ($modalProvider) {

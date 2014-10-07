@@ -2,7 +2,7 @@ define([
 ], function () {
     'use strict';
 
-    var HomepageController = function () {
+    var HomepageController = function (TaskList) {
         this.test = true;
         this.modal = {
             "title": "Title",
@@ -10,5 +10,5 @@ define([
         };
     };
 
-    return [ HomepageController ];
+    return [ "TaskList", HomepageController ];
 });
